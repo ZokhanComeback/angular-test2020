@@ -1,0 +1,12 @@
+.square {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+
+  &_selected {
+    width: 146px;
+    height: 146px;
+    border: 2px solid yellow;
+    cursor: default;
+  }
+}

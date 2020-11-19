@@ -1,0 +1,6 @@
+<div
+  class="square"
+  [ngClass]="selected ? 'square_selected' : ''"
+  [ngStyle]="{background: color}"
+  (click)="squareService.selectShape(id)">
+</div>
